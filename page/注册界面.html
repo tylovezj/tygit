@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户注册</title>
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+<script  src="main.js">
+</script>
+</head>
+<body>
+
+   
+   
+	<form methed="post" action="save.php">
+	 <h1>用户注册</h1>
+	<div class="div2">
+	<label><span>帐户名：</span>
+	<input type="text" class="text"/></label><p class="msg"><i class="ati"></i>5-25个字符!</p>
+	</div>
+	<div>
+	<label><span></span><b id="count">0个字符</b></label>
+	</div>
+	<div>
+    <label><span>登录密码：</span>
+	<input type="text" class="text" /></label><p class="msg"><i class="err"></i>6-16个字符,请使用字母加数字或符号的组合密码！</p>
+	</div>
+	<div style="margin:3px 0 10px 90px">
+    <label><sapn></sapn><em class="active">弱</em><em>中</em><em>强</em></label>
+	</div>
+	<div style="margin:3px 0 10px 0">
+	<label><span>确认密码：</span>
+	<input type="password" class="text" disabled="" /></label><p class="msg"><i class="ati"></i>请再输入一次！</p>
+	</div>
+	<div class="div5">
+	<input class="submitBtn btn" type="submit" value="同意协议并注册">
+	</div>
+	</form>
+	
+</body>
+</html>
